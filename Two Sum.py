@@ -4,4 +4,4 @@ class Solution:
         for i in range(len(nums)):
             if target - nums[i] in numtoindex:
                 return [numtoindex[target - nums[i]], i]
-            numtoindex[nums[i]] = i
+            numtoindex[nums[i]] = i  
